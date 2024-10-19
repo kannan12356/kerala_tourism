@@ -35,15 +35,116 @@
                     <img src="./images/alappey.jpg" alt="alappey-img" width="400px">
                     <figcaption>Alapuzha</figcaption>
                 </figure>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque repellendus deleniti ipsam veniam facere vel.</p>
+                <p>
+                    Alappuzha, often called the "Venice of the East," is a picturesque town in Kerala, India. 
+                    Known for its serene backwaters, houseboats, and beautiful beaches, it is a hub for tourism.
+                    Alappuzha is also famous for its annual Nehru Trophy Boat Race, a vibrant cultural event. 
+                    The town's lush paddy fields and charming canals make it a popular destination for nature 
+                    lovers.
+                </p>
             </article>
             <!-- Add 3 more destinations -->
+            <article>
+                <figure>
+                    <img src="./images/idukki.jpg" alt="idukki-img" width="400px">
+                    <figcaption>Idukki</figcaption>
+                </figure>
+                <p>
+                    Idukki, a beautiful district in Kerala, is known for its lush green hills, sprawling tea 
+                    plantations, and scenic landscapes. It houses the Idukki Arch Dam, one of the highest in 
+                    Asia. Idukki is rich in wildlife, with the Periyar Wildlife Sanctuary being a major 
+                    attraction. The district’s cool climate, misty mountains, and tranquil atmosphere make 
+                    it a popular destination for nature enthusiasts and adventure seekers alike.
+                </p>
+            </article>
+            <article>
+                <figure>
+                    <img src="./images/ernakulam.jpg" alt="ernakulam-img" width="400px">
+                    <figcaption>Ernakulam</figcaption>
+                </figure>
+                <p>
+                    Ernakulam, often referred to as the commercial capital of Kerala, is a bustling city that 
+                    forms part of Kochi. It is known for its vibrant business hubs, historical landmarks like 
+                    the Hill Palace, and modern infrastructure. Ernakulam is also home to the famous Marine 
+                    Drive promenade, offering stunning views of the backwaters. The city blends tradition 
+                    and modernity, making it a key center for trade, tourism, and cultural experiences in 
+                    Kerala.
+                </p>
+            </article>
+            <article>
+                <figure>
+                    <img src="./images/wayanad.jpg" alt="wayanad-img" width="400px">
+                    <figcaption>Wayanad</figcaption>
+                </figure>
+                <p>
+                    Wayanad, a scenic district in Kerala, is renowned for its lush greenery, rolling hills, 
+                    and rich wildlife. Known for its coffee, tea, and spice plantations, Wayanad offers 
+                    stunning landscapes dotted with waterfalls, caves, and lakes. Key attractions include 
+                    Edakkal Caves, with ancient rock carvings, and Wayanad Wildlife Sanctuary, home to 
+                    elephants, tigers, and other wildlife. Its cool climate and serene atmosphere make 
+                    Wayanad a popular destination for trekking and nature lovers.
+                </p>
+            </article>
         </section>
         <!-- Kerala map and About kerala -->
-        <!-- Districts ol a -->
+        <section>
+            <article>
+                <figure>
+                    <img src="./images/kerala.jpg" alt="kerala-img" width="300px">
+                    <figcaption>Kerala</figcaption>
+                </figure>
+                <p>
+                    Kerala, known as "God's Own Country," is a beautiful state in southern India, 
+                    famed for its stunning landscapes, backwaters, and rich cultural heritage. It offers a 
+                    diverse mix of beaches, hill stations, and wildlife sanctuaries. Kerala is also known 
+                    for its unique traditions like Kathakali, Ayurvedic treatments, and vibrant festivals 
+                    such as Onam. With its high literacy rate and focus on healthcare, Kerala stands out 
+                    for its social progress and is a top destination for both tourism and quality of life.
+                </p>
+                <!-- Districts ol a -->
+                <ol>
+                    <li>Kasaragod</li>
+                    <li>Kannur</li>
+                    <li>Kozhikode</li>
+                    <li>Wayanad</li>
+                    <li>Malappuram</li>
+                    <li>Palakkad</li>
+                    <li>Thrissur</li>
+                    <li>Ernakulam</li>
+                    <li>Alappuzha</li>
+                    <li>Idukki</li>
+                    <li>Kottayam</li>
+                    <li>Pathanamthitta</li>
+                    <li>Kollam</li>
+                    <li>Thiruvananthapuram</li>
+                  </ol>                  
+            </article>
+        </section>
         <!-- Contact Us form -->
-         <!-- fieldset tag and legend tag -->
-          <!-- add basic validations phone, email -->
+        <!-- fieldset tag and legend tag -->
+        <!-- add basic validations phone, email -->
+        <form action="" method="post">
+            <fieldset>
+                <legend>Contact Us</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
     </main>
     <footer>
         
